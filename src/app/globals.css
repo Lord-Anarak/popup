@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.gradient-text {
+  background: radial-gradient(
+    47.55% 47.55% at 50% 14.71%,
+    #fff4c0 0.07%,
+    #ffe02e 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.gradient-bar {
+  background: linear-gradient(
+    180deg,
+    #ffff00 0%,
+    #fbb03b 22.6%,
+    #f7931e 47.24%,
+    #f37830 64.12%,
+    #f16a3a 76%,
+    #f37433 84.61%,
+    #f79020 99.46%,
+    #f7931e 100.65%
+  );
+}
+.gradient-button {
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f7c891 8.5%,
+    #f3ac59 12.75%,
+    #ec6615 77%,
+    #944617 100%
+  );
+}
